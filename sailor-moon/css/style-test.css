@@ -34,9 +34,13 @@ main a {
 
 footer {
 	background-color: #ff80a0;
-	padding: 20px;
-	margin: 0px;
+	padding: 30px;
 	text-align: center;
+	color: white;
+}
+
+footer p {
+	margin: 0px;
 }
 
 h1, h2 {
