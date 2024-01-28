@@ -3,6 +3,8 @@ body {
 	font-family: 'Arial', 'Verdana', sans-serif;
 } 
 
+/* header styles */
+
 header {
 	background-color: #ff80a0;
 	text-align: center;
@@ -11,8 +13,10 @@ header {
 }
 
 header img {
-	width: 400px;
+	width: 30%;
 	}
+
+/* main styles */
 
 main {
 	max-width: 800px;
@@ -32,6 +36,8 @@ main a {
 	color: #ffcc66;
 }
 
+/* footer styles */
+
 footer {
 	background-color: #ff80a0;
 	padding: 30px;
@@ -43,6 +49,8 @@ footer p {
 	margin: 0px;
 }
 
+/* font styles */
+
 h1, h2 {
 	font-family: 'Lobster', sans-serif;;
 }
@@ -50,6 +58,8 @@ h1, h2 {
 h1 {
 	font-size: 70px;
 	color: #ffc9dc;
+    margin-top: -50px;
+    margin-bottom: 20px;
 }
 
 h2 {
