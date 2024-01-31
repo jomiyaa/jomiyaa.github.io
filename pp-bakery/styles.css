@@ -153,11 +153,23 @@ nav ul li a {
 	text-align: center;
 }
 
+.more-info p {
+	margin: 19px 0 35px;
+}
+
+.highlight {
+	background-color: #FFBD98;
+	color: #FFEED8;
+	padding: 5px;
+	display: inline;
+	font-weight: bold;
+}
+
 /* 
 
 	<div class="more-info" id="more-info">
 		<h3>Special Day Coming Up?</h3>
-		<p>Order one of our delicious cakes and bakes. We’ll tailor it to <span class="highlight">your needs</span>.</p>
+		<p>Order one of our delicious cakes and bakes. We’ll tailor it to <span class="highlight">your needs.</span></p>
 		<a class="cta alt">Bake my cake</a>
 	</div>
 
