@@ -149,8 +149,17 @@ nav ul li a {
 	padding: 30px 30px;
 }
 
+.more-info {
+	text-align: center;
+}
+
 /* 
 
+	<div class="more-info" id="more-info">
+		<h3>Special Day Coming Up?</h3>
+		<p>Order one of our delicious cakes and bakes. We’ll tailor it to <span class="highlight">your needs</span>.</p>
+		<a class="cta alt">Bake my cake</a>
+	</div>
 
 
 */
