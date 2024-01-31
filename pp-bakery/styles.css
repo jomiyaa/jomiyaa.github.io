@@ -1,3 +1,130 @@
-body {
-	background-color: #C5C5C5;
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+body, html {
+	font-family: 'Signika Negative', sans-serif;
+		padding: 0;
+		margin: 0;
 }
+
+p {
+	font-size: 22px;
+}
+
+h1{
+   font-size: 60px;
+   text-transform: uppercase;
+}
+
+h2 {
+	font-size: 54px;
+}
+
+h3 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.img {
+	background: url(img/titletop.png) no-repeat 0 0;
+	width: 378px;
+	height: 134px;
+	background-size: 100%;
+	margin: 130px 0 30px;
+}
+
+.wrapper {
+	width: 500px;
+	margin: -30px 50px;
+}
+
+.pp-header {
+	background-color: #FFBD9B;
+	height: 100vh;
+	padding: 50px 20px;
+	box-sizing: border-box;
+}
+
+.pp-header h1 {
+	color: #FFEED8;
+	margin: 90px 0px 30px;
+
+}
+
+.pic1 {
+	background: url(img/frontsquareimg.png) no-repeat 0 0;
+	background-size: cover;
+	border-radius: 82px;
+	border: 10px solid #0A1D37;
+	width: 260px;
+	height: 438px;
+	position: absolute; top: 170px; left: 675px;
+	z-index: 7;
+}
+
+.pic2 {
+	background: url(img/circleimg.png) no-repeat 0 0;
+	background-size: cover;
+	border-radius: 50%;
+	border: 10px solid #FFEED8;
+	width: 294px;
+	height: 294px;
+	position: absolute; top: 50px; left: 895px;
+	z-index: 3;
+}
+
+.pic3 {
+	background: url(img/squareimg.png) no-repeat 0 0;
+	background-size: cover;
+	border: 10px solid #FDD8CC;
+	width: 254px;
+	height: 346px;
+	position: absolute; top: 300px; right: 70px;
+	z-index: 1;
+}
+
+button.cta,
+a.cta {
+	font-size: 22px;
+	text-transform: uppercase;
+	color: white;
+	background-color: #0A1D37;
+	display: inline-block;
+	box-shadow: 0 0 0 5px rgba(0, 0, 0, .15);
+	padding: 20px 30px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+button.cta.alt, 
+a.cta.alt {
+	text-transform: none;
+	background-color: #FFBD9B;
+	color: black;
+}
+
+
+/* 
+
+<div class="pp-header">
+		<div class="wrapper">
+			<p>Jomiyaa presents</p>
+			<h1>Taste<br> 
+ 			the Flavor</h1>
+ 			<p>It is immediately bring to mind the feeling of biting into freshly baked, mouth-wateringly soft and buttery pastries.</p>
+ 			<button class="cta alt" href="#more-info">READ MORE</button>
+		</div>
+		<div class="pic1"></div>
+		<div class="pic2"></div>
+		<div class="pic3"></div>
+	</div>
+
+		<nav>
+		<a href="#" class="logo">PASTRY PALACE</a>
+		<ul>
+			<li><a href="#">ORDERS</a></li>
+			<li><a href="#story">THE STORY</a></li>
+			<li><a href="#more-info">MORE INFO</a></li>
+		</ul>
+	</nav>
+
+*/
