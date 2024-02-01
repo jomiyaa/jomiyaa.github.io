@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 
-body {
+body, html {
 	font-family: 'Signika Negative', sans-serif;
 		padding: 0;
 		margin: 0;
@@ -229,16 +229,15 @@ nav ul li a {
 				   color: black;}
 }
 
-.nb-list li.dragging {
+.nb-list li.favorite {
 	position: absolute;
 	top: 70px;
 	left: 70px;
-	right: -20px;
 	transform: rotate(6deg);
 	box-shadow: 0 2px 14px rgba(0, 0, 0, .3);
 }
 
-.nb-list li.dragging:after {
+.nb-list li.favorite:after {
 	content: '';
 	display: block;
 	position: absolute;
@@ -246,7 +245,7 @@ nav ul li a {
 	height: 434px;
 	background: url(img/cursor.png) no-repeat 0 0;
 	background-size: 10%;
-	bottom: 0;
+	bottom: -68px;
 	left: 60%;
 }
 
