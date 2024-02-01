@@ -260,4 +260,108 @@ footer {
 
 .popup {
 	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 9;
+}
+
+.popup.show {
+	display: block;
+}
+
+.popup .blanket {
+	background-color: rgba(0, 0, 0, .7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.popup .content {
+	box-sizing: border-box;
+	padding: 0px 60px;
+	width: 960px;
+	height: 590px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -270px;
+	margin-left: -480px;
+}
+
+.popup h2 {
+	margin: 30px 0 0;
+}
+
+.popup .cta {
+	margin-top: 15px;
+}
+
+.popup .close {
+	width: 100px;
+	height: 100px;
+	background: #FFBD98 url(img/cancel.png) no-repeat center center;
+	background-size: 50%;
+	position: absolute;
+	top: -40px;
+	right: -44px;
+	border-radius: 50%;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+.popup .row {
+
+}
+
+.popup .row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.popup .item {
+	float: left;
+	width: 395px;
+	margin: 15px;
+	text-align: left;
+}
+
+.popup .item:first-child {
+	margin-left: 0;
+}
+
+.popup .item label {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.popup .item input[type='text'] {
+	display: block;
+	font-size: 20px;
+	background-color: #D9D9D9;
+	border: none;
+	height: 45px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 15px 10px;
+}
+
+.popup .item textarea {
+	display: block;
+	background-color: #D9D9D9;
+	border: none;
+	box-sizing: border-box;
+	margin-top: -10px;
+	padding: 10px 5px;
 }

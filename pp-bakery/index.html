@@ -26,7 +26,7 @@
 	<nav>
 		<a href="#" class="logo">PASTRY PALACE</a>
 		<ul>
-			<li><a href="#">ORDERS</a></li>
+			<li><a href="javascript:()" onclick="showPopup();">ORDERS</a></li>
 			<li><a href="#story">THE STORY</a></li>
 			<li><a href="#more-info">MORE INFO</a></li>
 		</ul>
@@ -37,7 +37,7 @@
 		<div class="wrapper-main">
 		<h3>Special Day Coming Up?</h3>
 		<p>Order one of our delicious cakes and bakes. We’ll tailor it to <span class="highlight">your needs.</span></p>
-		<a class="cta alt">Bake my cake</a>
+		<a class="cta alt" onclick="showPopup();">Bake my cake</a>
 	</div>
 	</div>
 
@@ -74,12 +74,13 @@
 	</footer>
 
 <!-- pop-up -->
-	<div class="popup">
+	<div class="popup" id="popup">
 		<div class="blanket"></div>
 		<div class="content">
 			<h2>Fill In Your Details</h2>
 			<form action="">
-			<div class="item">
+				<div class="row">
+					<div class="item">
 				<label for="">Your First Name</label>
 				<input type="text" placeholder="First Name" Value="Michelle">
 			</div>
@@ -87,6 +88,8 @@
 				<label for="">Your Last Name</label>
 				<input type="text" placeholder="Last Name">
 			</div>
+		</div>
+		<div class="row">
 			<div class="item">
 				<label for="">Phone Number</label>
 				<input type="text" placeholder="(000) 000-0000">
@@ -95,15 +98,19 @@
 				<label for="">Email</label>
 				<input type="text" placeholder="example@email.com">
 			</div>
+		</div>
+		<div class="row">
 			<div class="item">
-				<label for="w3review">Order Note</label><br>
-  				<textarea rows="4" cols="50">Eg. Vanilla</textarea>
+				<label for="">Order Note</label><br>
+  				<textarea rows="4" cols="100">Eg. Vanilla</textarea>
 			</div>
+		</div>
 			<button class="cta">ORDER!</button>
 			</form>
-			<button class="close">Close</button>
+			<button class="close" onclick="hidePopup();">Close</button>
 		</div>
 	</div>
 
 </body>
 </html>
+<script src="script.js" type="text/javascript"></script>
