@@ -1,0 +1,32 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.left-col {
+	background-color: #DFDCE3;
+}
+
+.right-col {
+	background-color: #4ABDAC;
+}
+
+img {
+	max-width: 100%;
+}
+
+footer {
+	background-color: #DFDCE3;
+}
+
+.social-icon {
+	height: 60px;
+	margin: 10px;
+}
+
+.social-icons-container {
+	text-align: center;
+}
