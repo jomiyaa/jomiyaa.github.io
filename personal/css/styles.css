@@ -86,6 +86,11 @@ h2 {
 	color: #FC4A1A;
 }
 
+.img-margin {
+	margin-bottom: 50px;
+
+}
+
 .contact h2 {
 	color: #F7B733;
 }
@@ -99,7 +104,9 @@ h3 {
 }
 
 .team h3 {
-	color: #9C1414
+	color: #9C1414;
+	margin: 0 0 40px 0;
+	line-height: 100%;
 }
 
 .works h4 {
@@ -145,8 +152,17 @@ img {
 	max-width: 100%;
 }
 
+
+
 footer {
-	background-color: #DFDCE3;
+	background-color: #FC4A1A;
+	min-height: 200px;
+	color: #ffffff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
 }
 
 .social-icon {
