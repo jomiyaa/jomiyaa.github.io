@@ -4,6 +4,7 @@ html {
 
 body {
 	margin: 0;
+	font-family: 'Inconsolata', monospace;
 }
 
 
@@ -12,6 +13,22 @@ nav {
 	z-index: 1;
 	right: 0;
 	left: 0;
+	font-family: 'Karla', sans-serif;
+	font-size: 22px;
+}
+
+h2, h3, h4, h5 {
+	font-family: 'Karla', sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 150px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 100px;
 }
 
 .navigation {
@@ -24,12 +41,72 @@ nav {
 	color: #FC4A1A;
 }
 
+.left-col, .right-col {
+	color: #000000;
+	text-align: center;
+
+}
+
 .left-col {
 	background-color: #DFDCE3;
 }
 
 .right-col {
 	background-color: #4ABDAC;
+}
+
+.scroll {
+	color: #F7B733;
+	text-align: center;
+}
+
+.works {
+	color: #42645F;
+}
+
+.works h2 {
+	color: #4ABDAC;
+}
+
+.team h2 {
+	color: #FC4A1A;
+}
+
+.contact h2 {
+	color: #F7B733;
+}
+
+h3 {
+	font-size: 50px;
+}
+
+.works h3 {
+	color: #2A6E64;
+}
+
+.team h3 {
+	color: #9C1414
+}
+
+h4 {
+	font-size: 32px;
+	color: #2A6E64;
+	background-color: #56D6C3;
+	display: inline-block;
+	margin: 0;
+	padding: 10px;
+}
+
+a {
+	letter-spacing: 3px;
+	color: #56D6C3;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+p {
+	line-height: 145%;
 }
 
 img {
