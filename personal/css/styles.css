@@ -30,6 +30,7 @@ h1 {
 
 h2 {
 	font-size: 100px;
+	margin-bottom: 60px;
 }
 
 .navigation {
@@ -39,7 +40,11 @@ h2 {
 .navigation li {
 	display: inline-block;
 	margin: 0 15px;
+}
+
+.navigation li a {
 	color: #FC4A1A;
+	text-decoration: none;
 }
 
 .left-col, .right-col {
@@ -104,7 +109,7 @@ h3 {
 }
 
 .team h3 {
-	color: #9C1414;
+	color: #FC4A1A;
 	margin: 0 0 40px 0;
 	line-height: 100%;
 }
@@ -136,7 +141,7 @@ h4 {
 	padding: 10px;
 }
 
-a {
+.works a {
 	letter-spacing: 3px;
 	color: #56D6C3;
 	font-size: 15px;

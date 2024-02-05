@@ -7,19 +7,19 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 	<title>Joia's Personal Website</title>
 </head>
 <body>
 	<nav>
 		<ul class="navigation">
-			<li>the offer</li>
-			<li>portfolio</li>
-			<li>about me</li>
-			<li>contact</li>
+			<li><a href="#hello">hello</a></li>
+			<li><a href="#works">works</a></li>
+			<li><a href="#aboutme">about me</a></li>
+			<li><a href="#contact">contact</a></li>
 		</ul>
 	</nav>
-	<header class="row">
+	<header class="row" id="hello">
 	<!-- left column -->	
 		<section class="col left-col">
 			<div class="top-container">
@@ -41,7 +41,7 @@
 	<main class="container">
 			<p class="scroll">scroll down to find more about my work and myself</p>
 			<!-- works -->
-			<section class="works">
+			<section class="works" id="works">
 				<h2>works</h2>
 				<!-- first -->
 				<div class="row no-gutters">
@@ -96,8 +96,8 @@
 			</section>
 
 			<!-- my team -->
-			<section class="team">
-				<h2>my team</h2>
+			<section class="team" id="aboutme">
+				<h2>about me</h2>
 				<div class="row">
 					<div class="col-md-6">
 					<img src="img/team1.jpg" class="img-margin" alt="team picture"/>
@@ -123,7 +123,7 @@
 			</section>
 
 			<!-- contact -->
-			<section class="contact">
+			<section class="contact" id="contact">
 				<h2>contact</h2>
 				<div class="row">
 					<div class="col">
@@ -152,7 +152,7 @@
 				<a href=""><img src="img/pinterest.svg" class="social-icon" alt="pinterest"/></a>
 				<a href=""><img src="img/instagram.svg" class="social-icon" alt="instagram"/></a>
 			</div>
-				<p>designed with love by Joia Yarboi from The Awwwwesomes<br>
+				<p>designed with love by Joia Yarboi<br>
 				wwww.theawwwesomes.org, @theawwwesomes</p>
 		</div>
 	</footer>
