@@ -25,6 +25,7 @@ h2, h3, h4, h5 {
 h1 {
 	font-size: 150px;
 	font-weight: bold;
+	margin: 0;
 }
 
 h2 {
@@ -44,7 +45,10 @@ h2 {
 .left-col, .right-col {
 	color: #000000;
 	text-align: center;
-
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .left-col {
@@ -55,6 +59,11 @@ h2 {
 	background-color: #4ABDAC;
 }
 
+.top-container {
+	width: 500px;
+	margin: 0 auto;
+}
+
 .scroll {
 	color: #F7B733;
 	text-align: center;
@@ -62,6 +71,11 @@ h2 {
 
 .works {
 	color: #42645F;
+}
+
+.works-img {
+	position: relative;
+	width: 100%;
 }
 
 .works h2 {
@@ -86,6 +100,24 @@ h3 {
 
 .team h3 {
 	color: #9C1414
+}
+
+.works h4 {
+	position: absolute;
+	z-index: 1;
+	top: -25px;
+}
+
+.works h4.right-aligned {
+	right: 0;
+}
+
+.extra-gutters {
+	padding: 0 60px;
+}
+
+.right-aligned {
+	text-align: right;
 }
 
 h4 {
