@@ -157,7 +157,10 @@ img {
 	max-width: 100%;
 }
 
-
+.mepic {
+	max-width: 80%;
+	border-radius: 50%;
+}
 
 footer {
 	background-color: #FC4A1A;
